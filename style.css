@@ -1,0 +1,92 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    /* background-image: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%)); */
+    background-image: linear-gradient(#af67e9, #6565e7);
+}
+
+main {
+    /* border: 2px solid black; */
+    max-width: 56rem;
+    margin: auto;
+    min-height: 30rem;
+    margin-top: 4rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.left {
+    width: 50%;
+    float: left;
+}
+
+#women {
+    margin-top: -22rem;
+    margin-left: -4rem;
+    z-index: 4;
+}
+
+#illustrative {
+    margin-top: 11rem;
+    z-index: 3;
+    position: relative;
+    margin-left: -4.3rem;
+}
+
+#bgpattern {
+    margin-top: -25rem;
+    z-index: 13;
+    margin-left: -4.3rem;
+    overflow: hidden;
+}
+
+.right {
+    width: 50%;
+    float: right;
+    margin: auto;
+
+    margin-top: 7%;
+}
+
+hr {
+    color: rgb(237, 237, 237);
+    width: 22rem;
+    margin-right: 30rem;
+    padding-right: 2rem;
+}
+
+
+p {
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #9a98a0;
+}
+
+
+span {
+    display: none;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #ababad;
+}
+
+
+#q1::after {
+    content: url('./images/icon-arrow-down.svg');
+    display: inline-block;
+    width: 1rem;
+    text-align: end;
+    height: 1rem;
+    margin-left: 5rem;
+}
